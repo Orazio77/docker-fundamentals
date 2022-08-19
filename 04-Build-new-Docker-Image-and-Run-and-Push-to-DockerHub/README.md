@@ -42,6 +42,8 @@ docker push stacksimplify/mynginx_image1:v1-release
 Replace your docker hub account Id
 docker tag <your-docker-hub-id>/mynginx_image1:v1 <your-docker-hub-id>/mynginx_image1:v1-release
 docker push <your-docker-hub-id>/mynginx_image1:v1-release
+docker tag orazio77/mynginx_image1:v1 <your-docker-hub-id>/mynginx_image1:v1-release
+docker push orazio77/mynginx_image1:v1-release
 ```
 ## Step-5: Verify the same on docker hub
 - Login to docker hub and verify the image we have pushed
